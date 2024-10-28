@@ -4,7 +4,7 @@
 import { Card, Row, Col } from 'antd';
 import { useEffect, useState } from 'react';
 
-import "../../styles/HomePage.css"
+import "../styles/HomePage.css"
 // Define la interfaz para el servicio
 interface Service {
   id: number;       // Asegúrate de que el tipo coincida con el que defines en tu modelo Prisma
