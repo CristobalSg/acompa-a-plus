@@ -12,20 +12,20 @@ export default function HomePage() {
         style={{marginBottom: '20px', marginLeft: '10px' }}  // Modificar márgenes
         items={[
           {
-            href: '',
+            href: '/',
             title: <HomeOutlined />,
           },
           {
-            href: '',
+            href: '/home',
             title: (
               <>
                 <UserOutlined />
-                <span>User</span>
+                <span>Actividades</span>
               </>
             ),
           },
           {
-            title: 'Botones',
+            title: '',
           },
         ]}
       />

@@ -63,10 +63,8 @@ const GridComponent = () => {
       {/* Mostrar la cuadrícula o los detalles según la selección */}
       {!selectedAction ? (
         <>
-          <h1 style={{ marginTop: '30px' }}>Inicio (Home)</h1>
-          <p>Esta es la página de inicio o home de tu aplicación.</p>
-          <h1>Subtítulo</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto labore sequi illo eius assumenda molestiae impedit, itaque nostrum ratione ipsam suscipit fugit aspernatur laboriosam quos incidunt qui veniam officiis et!</p>
+          <h1 style={{ marginTop: '30px' }}>Actividades</h1>
+          <p>Aquí van las actividades a realizar, apretando el boton mostraria la informacion correspondiente.</p>
           <ActionGrid actions={actions} onSelect={setSelectedAction} />
         </>
       ) : (

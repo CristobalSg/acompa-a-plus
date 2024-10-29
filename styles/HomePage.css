@@ -35,6 +35,7 @@
 .grid-item {
   background-color: #4CAF50; /* Color de los cuadrados */
   border-radius: 5px;
+  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
   /* border-radius: 15px; */
   height: 150px; /* Altura de cada cuadrado */
   display: flex;

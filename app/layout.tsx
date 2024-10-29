@@ -8,6 +8,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <header>
           <nav>
             <ul>
+              {/* <li>Acompaña+</li> */}
               <li><a href="/">Inicio</a></li>
               <li><a href="/home">Home</a></li>
               {/* <li><a href="/servicios">Servicios</a></li> */}
